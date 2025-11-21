@@ -1,0 +1,5 @@
+Artificial Intelligence (AI) is a field of computer science that aims to create machines capable of intelligent behavior. It involves the development of algorithms and models that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI can be categorized into narrow AI, which is designed for specific tasks, and general AI, which would have the ability to understand or learn any intellectual task that a human can.
+
+Machine learning is a subset of AI that focuses on the development of algorithms that can learn from data without being explicitly programmed. Deep learning, a further subset, uses neural networks with many layers to model complex patterns in data.
+
+LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning method for large language models. It adapts pre-trained models to specific tasks by training only a small number of additional parameters, making it efficient for customization.

@@ -1,0 +1,32 @@
+[
+  {
+    "agent": "lora_evaluator",
+    "input": "Analyze this text and benchmark a\nmodel",
+    "output": {
+      "base_model": {
+        "accuracy": 0.5,
+        "f1_score": 0.0,
+        "latency_s": 0.004675483703613282,
+        "tokens_per_sec": 3422.105821400889
+      },
+      "lora_model": {
+        "accuracy": 0.0,
+        "f1_score": 0.0,
+        "latency_s": 0.008602142333984375,
+        "tokens_per_sec": 1860.0017738359202
+      }
+    }
+  },
+  {
+    "agent": "shruti_parser",
+    "input": "Analyze this text and benchmark a\nmodel",
+    "output": {
+      "intent": "command",
+      "actions": [
+        "analyze this text",
+        "benchmark a model"
+      ],
+      "summary": "This text instructs to analyze a given text and benchmark a model."
+    }
+  }
+]
